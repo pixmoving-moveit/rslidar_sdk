@@ -10,7 +10,7 @@ set(POINT_TYPE XYZIRT)
 #=======================================
 # Compile setup (ORIGINAL, CATKIN, COLCON)
 #=======================================
-set(COMPILE_METHOD COLCON)
+set(COMPILE_METHOD CATKIN)
 
 option(ENABLE_TRANSFORM "Enable transform functions" OFF)
 if(${ENABLE_TRANSFORM})
